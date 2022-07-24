@@ -1,0 +1,59 @@
+/* <animation keyframes for loader icon> */
+@-ms-keyframes spinner {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+
+@-moz-keyframes spinner {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes spinner {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+@-o-keyframes spinner {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spinner {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+/* </animation keyframes for loader icon> */
+
+/* </ block showing scale animations keyframes> */
+@-webkit-keyframes s-how {
+	from {transform: scale(0); }
+	to { transform: scale(1.0); }
+}
+@-moz-keyframes s-how {
+	from {transform: scale(0); }
+	to { transform: scale(1.0); }
+}
+@-ms-keyframes s-how {
+	from {transform: scale(0); }
+	to { transform: scale(1.0); }
+}
+@-o-keyframes s-how {
+	from {transform: scale(0); }
+	to { transform: scale(1.0); }
+}
+
+@keyframes s-how {
+	from {transform: scale(0); }
+	to { transform: scale(1.0); }
+}
+/* </ block showing scale animations keyframes> */
+
+/* </ fade effect keyframes for block showing> */
+@-webkit-keyframes opacitys { @include opacities() }
+@-ms-keyframes opacitys { @include opacities() }
+@-moz-keyframes opacitys { @include opacities() }
+@-o-keyframes opacitys { @include opacities() }
+@keyframes opacitys { @include opacities() }
+/* </ fade effect keyframes for block showing> */
